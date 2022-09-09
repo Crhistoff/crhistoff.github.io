@@ -1,0 +1,73 @@
+/* BEM - START */
+
+/* block-name--modifier */
+/* blockname--modifier */
+/* blockname__element */
+/* blockname__element--modifier */
+/* blockname__element--modifier-name */
+
+/* buttons */
+.button {
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .button--sm {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .button--md {
+    padding: 12px;
+    font-size: 16px;
+  }
+  .button--lg {
+    padding: 16px;
+    font-size: 20px;
+  }
+  .button--primary {
+    background-color: pink;
+    color: white;
+  }
+  .button--secondary {
+    background-color: lightblue;
+    color: black;
+  }
+  
+  /* cards */
+  .card {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: fit-content;
+  }
+  
+  .card--primary {
+    background-color: blue;
+  }
+  
+  .card--lg {
+    padding: 20px;
+  }
+  
+  .card__title {
+    color: white
+  }
+  
+  .card__title--underline {
+    text-decoration: underline;
+  }
+  
+  /* BEM - END */
+  
+  /* Not BEM ~> ATOMIC CSS */
+  .underline {
+    text-decoration: underline;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .center {
+    align-items: center;
+    justify-content: center;
+  }
