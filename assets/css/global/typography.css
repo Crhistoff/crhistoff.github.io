@@ -26,8 +26,13 @@ h6 {
   line-height: 1.5rem;
 }
 
+.text-xll {
+  font-size: 1.12rem;
+  line-height: 2rem;
+}
+
 .text-lg {
-  font-size: 1.125rem;
+  font-size: 1.12rem;
   line-height: 1.5rem;
 }
 
