@@ -1,0 +1,28 @@
+.food_card {
+    text-align: center;
+}
+
+.travel_card {
+    text-align: center;
+}
+
+
+.hobbie-summary__content {
+    display: grid;
+    grid-template: auto /  repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat( auto-fill, minmax(250px, 1fr) );
+ 
+    gap: 2rem;
+  
+    padding: 3rem;
+}
+
+
+.hobbie-summary__image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+
+}
