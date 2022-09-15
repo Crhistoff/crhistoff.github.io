@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transitions</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <style>
+    body {
+      background-color: var(--gray-100);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .border {
+      border: 2px dashed var(--gray-900);
+    }
+    .box {
+      width: 200px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      color: white;
+
+      background-color: var(--gray-500);
+      transition-property: all;
+      transition-duration: 3s;
+      transition-timing-function: ease;
+      /* transition-delay: 1s; */
+    }
+    .box:hover {
+      /* trasnforar */
+      transform: translateX(200px);
+
+      /* background-color: var(--red-300);
+      color: red;
+      font-size: 2.5rem;
+      border: 5px solid green; */
+    }
+  </style>
+  <body>
+    <div class="border">
+      <div class="box">Codeable</div>
+    </div>
+  </body>
+</html>

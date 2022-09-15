@@ -1,0 +1,33 @@
+@media  screen and (max-width: 480px){
+    body{
+        background-color: none;
+        margin: auto
+    }
+}
+
+
+/* #header{
+    width: 960px;
+    margin: auto;
+}
+#container-lg{
+    width: 480px;
+    margin: auto;
+}  
+#head-lg-semibold{
+    width: 480px;
+    margin: auto;
+}
+
+#article-summary--card{
+    width: 480px;
+    margin: auto;
+}
+#footer{
+    width: 480px;
+    margin: auto;
+}
+#py-3-pg-primary-darker-text-white{
+    width: 480px;
+    margin: auto; */
+}

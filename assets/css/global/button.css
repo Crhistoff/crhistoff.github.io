@@ -103,3 +103,6 @@
     background-color: var(--primary-light);
   }
   /* Buttons secondary - END */
+  .button--full {
+    width: 100%;
+  } 
