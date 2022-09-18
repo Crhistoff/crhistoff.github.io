@@ -7,33 +7,40 @@
     <title>Codeable UI - C8</title>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body>
-    <header class="header">
-      <div class="container-lg">
-        <nav class="navbar">
-          <a href="/index.html" class="header__logo text-decoration-none">
-            <h1 class="head-md semibold">Crhistoff Echevarria</h1>
-          </a>
-          <ul class="navbar__links list-style-none">
-            <li>
-              <a href="/article.html" class="link text semibold">Articles</a>
-            </li>
-            <li>
-              <a href="#" class="link text semibold">Portafolio</a>
-            </li>
-            <li><a href="/about-me.html" class="link text semibold">About</a></li>
-            <li>
-              <a
-                href="/form.html"
-                class="button button--primary button--sm text-decoration-none"
-              >
-                Contact Me
-              </a>
-            </li>
-          </ul>
-        </nav>
+  <body
+  <header class="header">
+    <div class="container-lg top-nav">
+      <div>
+        <a href="/index.html" class="header__logo text-decoration-none">
+          <h1 class="head-md semibold">Crhistoff Echevarria</h1>
+        </a>
       </div>
-    </header>
+      <input type="checkbox" name="" id="menu-toggle" />
+      <label class="menu-button__container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+      <nav class="navbar">
+        <ul class="navbar__links list-style-none menu">
+          <li>
+            <a href="/article.html" class="link text semibold">Articles</a>
+          </li>
+          <li>
+            <a href="/portafolio.html" class="link text semibold"
+              >Portafolio</a>
+          </li>
+          <li>
+            <a href="/about-me.html" class="link text semibold">About</a>
+          </li>
+          <li>
+            <a href="/form.html"
+              class="button button--primary button--sm text-decoration-none"
+            >Contact Me </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    
     <section class="py-4 bg-primary-darker text-white">
       <div class="container-lg">
         <h2 class="head-xl regular mb-1">
@@ -51,7 +58,7 @@
       </div>
     </section>
 
-    <main class="section-md">
+    <main class="section-md skills">
       <div class="container-lg">
         <div class="skill-summary__header">
           <h2 class="head-lg semibold">My skills</h2>

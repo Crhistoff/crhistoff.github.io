@@ -1,3 +1,10 @@
+.portafolio-main {
+    height:780px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+
 .icon-code {
   font-size:25px ;
   padding: 10px;
@@ -45,7 +52,7 @@
 }
 .portafolio-group {
     display:grid ;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));   
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));   
     gap:32px;
     margin-bottom: 32px;
     margin-top: 40px;

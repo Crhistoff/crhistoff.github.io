@@ -9,17 +9,25 @@
   </head>
   <body>
     <header class="header">
-      <div class="container-lg">
-        <nav class="navbar">
+      <div class="container-lg top-nav">
+        <div>
           <a href="/index.html" class="header__logo text-decoration-none">
             <h1 class="head-md semibold">Crhistoff Echevarria</h1>
           </a>
-          <ul class="navbar__links list-style-none">
+        </div>
+        <input type="checkbox" name="" id="menu-toggle" />
+        <label class="menu-button__container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+        <nav class="navbar">
+          <ul class="navbar__links list-style-none menu">
             <li>
               <a href="/article.html" class="link text semibold">Articles</a>
             </li>
             <li>
-              <a href="#" class="link text semibold">Portafolio</a>
+              <a href="/portafolio.html" class="link text semibold"
+                >Portafolio</a
+              >
             </li>
             <li>
               <a href="/about-me.html" class="link text semibold">About</a>
@@ -134,7 +142,6 @@
       <div class="container-md footer__content">
         <h2 class="head-xl semibold">Can I help you?</h2>
         <button class="button button--lg button--primary">get in touch!</button>
-        <div>style</div>
       </div>
     </footer>
   </body>
